@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/saya');
+});
+Route::get('/saya', function(){
+    return "HI ini adalah percobaan ";
 });
